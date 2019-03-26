@@ -8,6 +8,9 @@ Signature（签名）<br/>
 其中Payload的内容是base64编码生成，所以一般来说是不存放重要的文件信息，基于一些特殊场景增加了Payload的AES加解密
 使用公钥给客户端加密payload内容，由服务端的私钥解密保障了payload的安全性
 ****
+
+仓库地址：jcenter { url "https://dl.bintray.com/kavi/vts" }
+
 # 引入
 ### MAVEN <br />
 ```
