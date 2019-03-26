@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimpleToken" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-25T15:12:37" hostname="SILI-HUAWEI" time="0.183">
+  <properties/>
+  <testcase name="test" classname="SimpleToken" time="0.183"/>
+  <system-out><![CDATA[>> TOKEN RESULT:
+{"user_id":"UR111111","permissions":["checked"],"iat":1553526757}
+>> Has Permission: Checked
+>> RUNTIME: 20ms
+]]></system-out>
+  <system-err><![CDATA[三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: RS384 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: RS512 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES256 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES384 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES512 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: RS384 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: RS512 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES256 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES384 not available
+三月 25, 2019 11:12:37 下午 vts.jwt.JWT <init>
+信息: ES512 not available
+]]></system-err>
+</testsuite>

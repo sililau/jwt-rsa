@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.8.1'
+    }
+}
+plugins {
+    id 'java'
+    id 'application'
+}
+apply plugin: 'com.novoda.bintray-release'
+
+group 'kavi'
+version '1.0-SNAPSHOT'
+mainClassName = ''
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+version = "1.0.0"
+jar {
+    // basename = ""
+    from(compileJava.outputs)
+}
+publish {
+    repoName = 'vts'
+    userOrg = 'kavi'
+    groupId = 'com.kavi'
+    artifactId = 'jwt-rsa'
+    publishVersion = '1.0.2'
+    desc = 'Json Web token with RSA'
+    website = 'https://vts.kavi.tech'
+}
