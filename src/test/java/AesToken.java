@@ -1,11 +1,17 @@
 import org.junit.Test;
-import vts.jwt.JWTAuth;
-import vts.jwt.JWTOptions;
-import vts.jwt.User;
+import vts.jwt.*;
 import vts.jwt.json.JsonObject;
-import vts.jwt.RSAUtil;
 
 public class AesToken {
+
+    @Test
+    public void buildKeyStore() {
+        try {
+            KeyStoreBuilder.build("test.jceks", "123456");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     /***
      * 生成token，基于公钥的内容加密
@@ -13,13 +19,13 @@ public class AesToken {
     @Test
     public void build() {
         try {
-             String publicKeyStr = RSAUtil.readToString("public.key");
+            String publicKeyStr = RSAUtil.readToString("public.key");
             JWTAuth jwt = JWTAuth.create(new JsonObject()
                     .put("keyStore", new JsonObject()
-                            .put("type", "jceks")             // 签名文件类型
-                            .put("path", "E:\\VTS\\vendor\\JWT\\src\\main\\resources\\keystore.jceks")    // 签名测试文件
-                            .put("password", "secret")));
-            jwt.setPublicKey(publicKeyStr);
+                            .put("type", "JCEKS")             // 签名文件类型
+                            .put("path", "E:\\KAVI\\jwt-rsa\\test.jceks")    // 签名测试文件
+                            .put("password", "123456")));
+        //    jwt.setPublicKey(publicKeyStr);
 
             JsonObject context = new JsonObject();
 

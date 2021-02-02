@@ -343,7 +343,7 @@ public final class JWT {
     }
 
     public String sign(JsonObject payload, JsonObject options) {
-        final String algorithm = options.getString("algorithm", "HS256");
+        final String algorithm = options.getString("algorithm", "RS256");
 
         List<Crypto> cryptos = cryptoMap.get(algorithm);
 
