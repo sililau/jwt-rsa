@@ -59,4 +59,13 @@ compile 'com.kavi:jwt-rsa:1.0.1'
 ```
 
 <br/>
+### KeyStore 文件生成详细参考 src/main/java/vts/jwt/KeyStoreBuilder.java
+# 使用
+```
+ try {
+            KeyStoreBuilder.build("test.jceks", "123456");
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+```
 说明：代码基于Vertx的 vertx-jwt参考及引用，只是在原有基础上略作封装和脱离了vertx的环境以便在其他java环境应用

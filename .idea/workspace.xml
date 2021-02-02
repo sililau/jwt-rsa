@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ada112a-83d2-46e8-a411-87c404cca32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vts/jwt/JWT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vts/jwt/JWT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AesToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AesToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AesToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="114">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="326">
+                <caret line="66" selection-start-line="66" selection-end-line="68" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -49,27 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="29" selection-start-line="29" selection-end-line="37" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BuildRsa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BuildKeystore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="37" column="53" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/test/java/BuildKeystore.java" />
         <option value="$PROJECT_DIR$/src/main/java/vts/jwt/KeyStoreBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/AesToken.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -218,6 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -305,14 +294,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612261838525</updated>
-      <workItem from="1612261841419" duration="7818000" />
+      <workItem from="1612261841419" duration="8020000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AesToken_build - 2021.02.02 at 20h 22m 31s.xml">
-      <configuration name="AesToken.build" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AesToken_build - 2021.02.02 at 20h 22m 41s.xml">
       <configuration name="AesToken.build" configurationId="JUnit" />
     </history-entry>
@@ -340,9 +326,12 @@
     <history-entry file="AesToken_buildKeyStore - 2021.02.02 at 21h 17m 03s.xml">
       <configuration name="AesToken.buildKeyStore" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AesToken_build - 2021.02.02 at 21h 17m 22s.xml">
+      <configuration name="AesToken.build" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7818000" />
+    <option name="totallyTimeSpent" value="8020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -354,7 +343,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33254156" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="JProfiler" />
@@ -363,7 +352,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3432304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3432304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,30 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vts/jwt/JWT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="29" selection-start-line="29" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BuildRsa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BuildKeystore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="37" column="53" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/jre/lib/rt.jar!/sun/security/x509/X500Name.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -510,10 +475,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BuildKeystore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BuildRsa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vts/jwt/JWT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="29" selection-start-line="29" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AesToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        <state relative-caret-position="114">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="326">
+            <caret line="66" selection-start-line="66" selection-end-line="68" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
